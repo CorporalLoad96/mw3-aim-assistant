@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0a0c0d"/>
+<stop offset="55%" stop-color="#14181a"/>
+<stop offset="100%" stop-color="#1c0d0d"/>
+</linearGradient>
+<radialGradient id="glow" cx="80%" cy="35%" r="60%">
+<stop offset="0%" stop-color="#ff2b2b" stop-opacity="0.35"/>
+<stop offset="60%" stop-color="#ff2b2b" stop-opacity="0.05"/>
+<stop offset="100%" stop-color="#ff2b2b" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="scope" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#ff3b3b"/>
+<stop offset="100%" stop-color="#8f0f0f"/>
+</linearGradient>
+<linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#ffffff"/>
+<stop offset="100%" stop-color="#ff8a8a"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+<rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+<g opacity="0.08" stroke="#ff3b3b" stroke-width="1">
+<line x1="0" y1="60" x2="1200" y2="60"/>
+<line x1="0" y1="120" x2="1200" y2="120"/>
+<line x1="0" y1="180" x2="1200" y2="180"/>
+<line x1="0" y1="240" x2="1200" y2="240"/>
+<line x1="0" y1="300" x2="1200" y2="300"/>
+<line x1="200" y1="0" x2="200" y2="360"/>
+<line x1="400" y1="0" x2="400" y2="360"/>
+<line x1="600" y1="0" x2="600" y2="360"/>
+<line x1="800" y1="0" x2="800" y2="360"/>
+<line x1="1000" y1="0" x2="1000" y2="360"/>
+</g>
+
+<g transform="translate(960,150)" opacity="0.9">
+<circle r="130" fill="none" stroke="#ff2b2b" stroke-width="1.5" opacity="0.4"/>
+<circle r="95" fill="none" stroke="#ff2b2b" stroke-width="1.5" opacity="0.55"/>
+<circle r="60" fill="none" stroke="url(#scope)" stroke-width="2.5"/>
+<line x1="-150" y1="0" x2="-70" y2="0" stroke="#ff3b3b" stroke-width="3"/>
+<line x1="70" y1="0" x2="150" y2="0" stroke="#ff3b3b" stroke-width="3"/>
+<line x1="0" y1="-150" x2="0" y2="-70" stroke="#ff3b3b" stroke-width="3"/>
+<line x1="0" y1="70" x2="0" y2="150" stroke="#ff3b3b" stroke-width="3"/>
+<circle r="4" fill="#ff3b3b"/>
+<circle r="5" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+</g>
+
+<g opacity="0.55">
+<polygon points="1005,60 1080,60 1120,20 1005,20" fill="#ff2b2b" opacity="0.12"/>
+<polygon points="1005,300 1080,300 1120,340 1005,340" fill="#ff2b2b" opacity="0.12"/>
+</g>
+
+<g opacity="0.5" stroke="#ff3b3b" stroke-width="1.4">
+<polyline points="40,300 90,300 110,280" fill="none"/>
+<polyline points="40,320 70,320 90,300" fill="none"/>
+<polyline points="40,60 90,60 110,80" fill="none"/>
+</g>
+
+<g opacity="0.7">
+<polygon points="60,240 66,236 66,300 60,304" fill="#ff2b2b" opacity="0.2"/>
+<polygon points="70,232 76,228 76,300 70,304" fill="#ff2b2b" opacity="0.15"/>
+</g>
+
+<text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="72" fill="url(#txt)" textLength="900" lengthAdjust="spacingAndGlyphs">
+Call Of Duty MW3
+</text>
+<text x="60" y="228" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="72" fill="url(#txt)" textLength="440" lengthAdjust="spacingAndGlyphs">
+Softaim
+</text>
+
+<text x="60" y="272" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#d8d8d8" textLength="760" lengthAdjust="spacingAndGlyphs">
+Pluggable softaim module for the Call of Duty MW3 ecosystem
+</text>
+
+<rect x="60" y="284" width="120" height="4" fill="#ff2b2b" opacity="0.7"/>
+</svg>
